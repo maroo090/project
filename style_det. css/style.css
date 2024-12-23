@@ -1,0 +1,251 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.all {
+    display: flex;
+    margin-top: 70px;
+}
+
+
+.mac {
+    width: 550px;
+    height: auto;
+    position: relative;
+    left: 90px;
+}
+
+
+.det1 {
+    text-align: left;
+    width: 800px;
+    font-size: 25px;
+}
+
+#Apple {
+    font-size: 50px;
+}
+
+#cart {
+
+
+}
+
+button {
+    background-color: black;
+    width: 500px;
+    color: white;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:rgba(137, 43, 226, 0.466);
+    color: black;
+}
+
+.detRight {
+    position: relative;
+    left: 120px;
+}
+
+.paragraphs {
+    display: flex;
+}
+
+
+.p2 {
+    color: red  ;
+}
+
+.p1 {
+    color: #3333337c;
+    margin-right: 15px;
+    font-size: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+.icon1 {
+    width: 40px;
+    display: block;
+    position: relative;
+    left: 270px;
+    top: 20px;
+}
+
+.Picon1 {
+    font-size: small;
+    position: relative;
+    left: 237px;
+    top: 20px;
+}
+
+.cash_or_icon{
+    font-size: small;
+    position: relative;
+    left: 247px;
+    top: 20px;
+}
+
+.vertical-line {
+    width: 120px;
+    transform: rotate(90deg); /* تدوير الخط */
+    position: relative;
+    bottom: 35px;
+    left: 90px;
+}
+
+.icon2 {
+    width: 40px;
+    display: block;
+    position: relative;
+    left: 410px;
+    bottom: 100px;
+}
+
+
+.Picon2{
+    font-size: small;
+    position: relative;
+    left: 387px;
+    bottom: 103px;
+}
+
+
+.up_to_30_days {
+    font-size: small;
+    position: relative;
+    left: 389px;
+    bottom: 105px;
+
+}
+
+.span1 {
+    color: rgba(0, 0, 255, 0.76);
+}
+
+.caricon {
+    width: 40px;
+}
+
+.deliveryDiv {
+    display: flex;
+}
+
+h5 {
+    position: relative;
+    left: 20px;
+}
+
+.span2 {
+    color: green;
+}
+
+.pickupDiv {
+    display: flex;
+}
+
+.pickupicon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+}
+
+.span3 {
+    color: green;
+}
+
+.Btech {
+    border: 1px solid gainsboro;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 25px;
+    margin-bottom: 70px;
+}
+
+.span4 {
+    color: rgba(0, 0, 255, 0.76);
+}
+
+.BtechParagraph {
+    position: relative;
+    bottom: 8px;
+    left: 10px;
+}
+
+.stars {
+    position: relative;
+    bottom: 18px;
+    left: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #131921;
+    color: white;
+    padding: 40px 20px;
+    text-align: left;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+  
+  .footer-section {
+    width: 22%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 8px 0;
+  }
+  
+  .footer-section a {
+    color: #d1d1d1;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .payment-methods img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+    color: #d1d1d1;
+  }
